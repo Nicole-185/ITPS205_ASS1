@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: #b784a7;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #37202D;
+    margin: 0;
+}
+
+h3 {
+    color: #37202D;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #9E6489;
+    overflow: hidden;
+}
+
+nav a {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #ECDEE9;
+    float: left;
+}
+
+nav a:hover {
+    background-color: #DEC3D7;
+    color: #865070;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.sidebar, .main {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.sidebar {
+    background-color: #DEC3D7;
+    width: 30%;
+}
+
+
+.main {
+    background-color: #ECDEE9;
+    width: 70%;
+}
+
+.face {
+    width: 100%;
+    height: auto;
+}
+
+.flower {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .sidebar {
+        width: 50%;
+    }
+
+    .main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        float: none;
+    }
+}
