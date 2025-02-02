@@ -93,12 +93,4 @@ nav a:hover {
     .main {
         width: 100%;
     }
-
-    nav {
-        text-align: center;
-    }
-
-    nav a {
-        float: none;
-    }
 }
